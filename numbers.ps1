@@ -1,11 +1,11 @@
 function DoubleNumber {
     param([int]$Number)
-    $Number * 4
+    $Number * 2
 }
 
 function TripleNumber {
     param([int]$Number)
-    $Number * 2
+    $Number * 3
 }
 
 Write-Host (DoubleNumber 128) # Expects 256, returns 512.
